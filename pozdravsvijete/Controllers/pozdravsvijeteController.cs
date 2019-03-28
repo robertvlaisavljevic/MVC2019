@@ -6,13 +6,13 @@ using System.Web.Mvc;
 
 namespace pozdravsvijete.Controllers
 {
-    public class pozdravsvijeteController : Controller
+    public class PozdravSvijeteController : Controller
     {
-        // GET: pozdravsvijete
+        // GET: PozdravSvijete
         public ActionResult Index()
         {
-            string model = "Pozdrav svijete";
-            return View((object(model);
+            string model = "Pozdrav svijete lalala";
+            return View((object)model);
         }
     }
 }
