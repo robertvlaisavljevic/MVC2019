@@ -68,9 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
+<<<<<<< HEAD
     <Content Include="tablica.html" />
     <Content Include="index.htm" />
     <Content Include="primjer_forme.htm" />
+=======
+    <Content Include="index.html" />
+    <Content Include="primjer_forme.html" />
+    <Content Include="tablica.html" />
+>>>>>>> 98bcd4ffcc3adf352cd2f02f23f59ff4b2136428
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
