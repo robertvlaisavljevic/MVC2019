@@ -6,17 +6,17 @@ using System.Web.Mvc;
 
 namespace HelloWorld.Controllers
 {
-    public class RazorSintaksaController : Controller
+    public class LayoutSectionController : Controller
     {
-        // GET: RazorSintaksa
-        public ViewResult SwitchView()
+        // GET: LayoutSection
+        public ActionResult Stranica1()
         {
             return View();
         }
-        public ViewResult ViewZaForPetlju()
+
+        public ActionResult Strancia2()
         {
             return View();
         }
     }
-    
 }

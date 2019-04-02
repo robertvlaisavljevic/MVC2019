@@ -129,6 +129,7 @@
     <Compile Include="Controllers\BrojGodinaController.cs" />
     <Compile Include="Controllers\GeneratorIzlazaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LayoutSectionController.cs" />
     <Compile Include="Controllers\NarudzbaArtiklaController.cs" />
     <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
@@ -175,7 +176,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
@@ -190,6 +190,10 @@
     <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
     <Content Include="Views\TocanOdgovor\Index.cshtml" />
     <Content Include="Views\RazorSintaksa\SwitchView.cshtml" />
+    <Content Include="_OsnovniLayout.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica1.cshtml" />
+    <Content Include="Views\LayoutSection\Strancia2.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
