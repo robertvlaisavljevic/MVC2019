@@ -15,6 +15,7 @@ namespace HelloWorld.Controllers
         }
         public ViewResult ViewZaForPetlju()
         {
+<<<<<<< HEAD
             string[] voce = new string[]
             {
                 "Jabuka",
@@ -24,6 +25,10 @@ namespace HelloWorld.Controllers
                 "Šljiva"
             };
             return View(voce);
+=======
+            return View();
+>>>>>>> c17e13165121a0512bd4c3280084a58eced5935f
         }
     }
+    
 }
