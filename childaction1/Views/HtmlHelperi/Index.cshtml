@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <form>
+            
+            @Html.CheckBox("PRVI", true) <br />
+            @Html.CheckBox("DRUGI", false) <br />
+            @Html.RadioButton("imeradia", "val1", true) <br />
+            @Html.RadioButton("imeradia", "val2", false)<br />
+            @Html.Hidden("pass","pass")<br />
+            @Html.TextBox("tkstic-boxic","vrijednost")<br />
+            @Html.TextArea("textic-area", "ovo je nesto", 10, 15, null)<br />
+            @Html.DropDownList("drop-downer", new SelectList(new[] { "musko", "zensko" }), "--Odaberi spol--")<br />
+            @Html.ListBox("drop-downer", new SelectList(new[] { "musko", "zensko" }), "--Odaberi spol--")<br />
+            
+        </form>
+</div>
+</body>
+</html>
