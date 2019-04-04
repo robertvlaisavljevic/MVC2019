@@ -143,11 +143,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ChildActionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HtmlHelperiController.cs" />
+    <Compile Include="Controllers\Osoba.cs" />
     <Compile Include="Controllers\pozdravsvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\TemplHtmlHelperiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Adresa.cs" />
+    <Compile Include="Models\OsobaTempl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,10 +194,12 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\pozdravsvijete\Index.cshtml" />
     <Content Include="Views\ChildAction\ChildActionView.cshtml" />
+    <Content Include="Views\HtmlHelperi\FormHelper.cshtml" />
+    <Content Include="Views\TemplHtmlHelperi\HtmlEditorView.cshtml" />
+    <Content Include="Views\TemplHtmlHelperi\HtmlLabelDisplay.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Prvi\" />
   </ItemGroup>
   <ItemGroup>

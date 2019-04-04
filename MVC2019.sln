@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modeli", "modeli\modeli.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "childaction1", "childaction1\childaction1.csproj", "{F23C7632-81C6-4DD1-BA0B-D62D47477020}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlHelperi", "HtmlHelperi\HtmlHelperi.csproj", "{F78628E3-EE82-4A56-ACC1-AD28D3E557BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F23C7632-81C6-4DD1-BA0B-D62D47477020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23C7632-81C6-4DD1-BA0B-D62D47477020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23C7632-81C6-4DD1-BA0B-D62D47477020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78628E3-EE82-4A56-ACC1-AD28D3E557BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78628E3-EE82-4A56-ACC1-AD28D3E557BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78628E3-EE82-4A56-ACC1-AD28D3E557BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78628E3-EE82-4A56-ACC1-AD28D3E557BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
