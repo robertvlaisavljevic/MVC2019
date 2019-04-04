@@ -130,7 +130,11 @@
     <Compile Include="Controllers\ChildActionController.cs" />
     <Compile Include="Controllers\GeneratorIzlazaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\HtmlHelperiController.cs" />
+=======
+    <Compile Include="Controllers\LayoutSectionController.cs" />
+>>>>>>> a26756587aa5783df14972578d5b6eae3444e53a
     <Compile Include="Controllers\NarudzbaArtiklaController.cs" />
     <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\ParcijalniPoglediController.cs" />
@@ -178,7 +182,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
@@ -193,15 +196,25 @@
     <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
     <Content Include="Views\TocanOdgovor\Index.cshtml" />
     <Content Include="Views\RazorSintaksa\SwitchView.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
     <Content Include="Views\Shared\_OsnovniLayout.cshtml" />
     <Content Include="Views\Shared\_PosebniLayout.cshtml" />
     <Content Include="Views\ParcijalniPogledi\PrikaziKosaricu.cshtml" />
     <Content Include="Views\Shared\_Artikl.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\ChildAction\ChildActionView.cshtml" />
     <Content Include="Views\HtmlHelperi\Index.cshtml" />
     <Content Include="Views\HtmlHelperi\FormHelper.cshtml" />
     <Content Include="Views\HtmlHelperi\StrongTypedFormHelper.cshtml" />
+=======
+=======
+    <Content Include="_OsnovniLayout.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica1.cshtml" />
+    <Content Include="Views\LayoutSection\Strancia2.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
+>>>>>>> c17e13165121a0512bd4c3280084a58eced5935f
+>>>>>>> a26756587aa5783df14972578d5b6eae3444e53a
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
