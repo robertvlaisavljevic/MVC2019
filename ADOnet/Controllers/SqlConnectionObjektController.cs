@@ -22,7 +22,7 @@ namespace ADOnet.Controllers
             SqlConnection conn = new SqlConnection(connString);
 
             //otvaramo vezu s bazom
-            try
+            try 
             {
                 conn.Open();
                 if (conn.State==System.Data.ConnectionState.Open)
