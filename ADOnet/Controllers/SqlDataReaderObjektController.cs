@@ -39,7 +39,7 @@ namespace ADOnet.Controllers
                         lstTecajevi.Add(t1);
                     }
 
-                }
+                } 
 
             }
             return View("Index", lstTecajevi);
