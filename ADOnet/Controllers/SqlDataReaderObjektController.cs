@@ -14,6 +14,7 @@ namespace ADOnet.Controllers
         // GET: SqlDataReaderObjekt
         public ActionResult Index()
         {
+            List<Tecaj> lstTecajevi = new List<Tecaj>();
             string connstring = ConfigurationManager.ConnectionStrings[0].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connstring))
             {
