@@ -268,7 +268,6 @@
     <Content Include="Views\Kontakt\Details.cshtml" />
     <Content Include="Views\Kontakt\DeleteConfirmed.cshtml" />
     <Content Include="Views\Kontakt\Edit.cshtml" />
-    <Content Include="Views\Kontakt\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
