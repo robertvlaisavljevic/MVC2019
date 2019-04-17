@@ -30,7 +30,7 @@ namespace WebShop.Controllers
 
         public ApplicationSignInManager SignInManager
         {
-            get
+            get 
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
