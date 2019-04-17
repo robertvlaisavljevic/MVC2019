@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="79f562eb-defb-461b-a4b2-e773b21cdd04" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60371/KontaktService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="KontaktService.xsd" MetadataType="Schema" ID="6e43837f-6845-463f-80bf-f27b7c0c61d0" SourceId="1" SourceUrl="http://localhost:60371/KontaktService.svc?xsd=xsd1" />
+    <MetadataFile FileName="KontaktService1.xsd" MetadataType="Schema" ID="aee50108-109d-4b7f-8d9a-f70ef388096e" SourceId="1" SourceUrl="http://localhost:60371/KontaktService.svc?xsd=xsd0" />
+    <MetadataFile FileName="KontaktService.disco" MetadataType="Disco" ID="05009a8d-baca-4cda-85eb-5a9b93a0515c" SourceId="1" SourceUrl="http://localhost:60371/KontaktService.svc?disco" />
+    <MetadataFile FileName="KontaktService.wsdl" MetadataType="Wsdl" ID="a5331556-c592-4c11-8a9b-9af752bd1221" SourceId="1" SourceUrl="http://localhost:60371/KontaktService.svc?wsdl" />
+    <MetadataFile FileName="KontaktService2.xsd" MetadataType="Schema" ID="22b6e1d3-73a5-4673-bb32-0532de52c046" SourceId="1" SourceUrl="http://localhost:60371/KontaktService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
