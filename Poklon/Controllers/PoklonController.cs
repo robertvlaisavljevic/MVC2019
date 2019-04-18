@@ -15,7 +15,7 @@ namespace Poklon.Controllers
         // GET: Poklon
         public ActionResult Index()
         {
-            List<Models.Poklon> listaPoklona = (from p in _db.Pokloni select p).ToList();
+            List<Models.Poklon> listaPoklona = (from p in _db.Pokloni where p.Kupljeno==false  select p).ToList();
             return View(listaPoklona);
         }
         [HttpGet]
@@ -35,6 +35,15 @@ namespace Poklon.Controllers
             return RedirectToAction("Index");
         }
 
-         
+        [HttpGet]
+        public ActionResult OznaciKupljeno(int id)
+        {
+            Models.Poklon p = _db.Pokloni.Find(id);
+            p.Kupljeno = true;
+            _db.Entry(p).State = EntityState.Modified;
+            _db.SaveChanges();
+            
+            return RedirectToAction("Index");
+        }
     }
 }
