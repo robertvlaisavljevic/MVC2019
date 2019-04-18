@@ -18,5 +18,23 @@ namespace Poklon.Controllers
             List<Models.Poklon> listaPoklona = (from p in _db.Pokloni select p).ToList();
             return View(listaPoklona);
         }
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Models.Poklon poklon)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Pokloni.Add(poklon);
+                _db.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

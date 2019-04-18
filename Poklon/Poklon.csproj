@@ -266,6 +266,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Ispit\Prvi.cshtml" />
     <Content Include="Views\Poklon\Index.cshtml" />
+    <Content Include="Views\Poklon\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
